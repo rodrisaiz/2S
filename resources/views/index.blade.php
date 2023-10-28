@@ -6,6 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>NOTE SHOW</h1>
+    <h1>LANDING</h1>
 </body>
 </html>

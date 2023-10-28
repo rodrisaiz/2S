@@ -11,7 +11,7 @@ class CategoryController extends Controller
      */
     public function index()
     {
-        //
+        return "Category index";
     }
 
     /**
@@ -35,7 +35,7 @@ class CategoryController extends Controller
      */
     public function show(string $id)
     {
-        //
+        return "Category show";
     }
 
     /**
@@ -43,7 +43,7 @@ class CategoryController extends Controller
      */
     public function edit(string $id)
     {
-        //
+        return "Category edit";
     }
 
     /**

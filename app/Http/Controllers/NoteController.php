@@ -11,7 +11,7 @@ class NoteController extends Controller
      */
     public function index()
     {
-        //
+        return "Note index";
     }
 
     /**
@@ -35,7 +35,7 @@ class NoteController extends Controller
      */
     public function show(string $id)
     {
-        //
+        return "Note show";
     }
 
     /**
@@ -43,7 +43,7 @@ class NoteController extends Controller
      */
     public function edit(string $id)
     {
-        //
+        return "Note edit";
     }
 
     /**
