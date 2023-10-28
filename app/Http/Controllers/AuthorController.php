@@ -11,7 +11,7 @@ class AuthorController extends Controller
      */
     public function index()
     {
-        //
+        return "Author index";
     }
 
     /**
@@ -35,7 +35,7 @@ class AuthorController extends Controller
      */
     public function show(string $id)
     {
-        //
+        return "Author show";
     }
 
     /**
@@ -43,7 +43,7 @@ class AuthorController extends Controller
      */
     public function edit(string $id)
     {
-        //
+        return "Author edit";
     }
 
     /**
