@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>CATEGORY SHOW</h1>
-    <p>Name of the category: {{$category->name}}</p>
+    <h1>Category Create</h1>
+    
 </body>
 </html>

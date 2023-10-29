@@ -7,5 +7,10 @@
 </head>
 <body>
     <h1>CATEGORY INDEX</h1>
+    @forelse ( $categories as $category )
+        <p>Name of the category: {{$category->name}}</p>
+    @empty
+        <p>No data!</p>
+    @endforelse
 </body>
 </html>
