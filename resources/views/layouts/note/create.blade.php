@@ -6,7 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>NOTE EDIT</h1>
-    <p>Edit title: {{$note->title}}</p>
+    <h1>Note Create</h1>
 </body>
 </html>

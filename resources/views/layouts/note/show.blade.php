@@ -7,5 +7,6 @@
 </head>
 <body>
     <h1>NOTE SHOW</h1>
+    <p>Title: {{$note->title}}</p>
 </body>
 </html>
