@@ -7,5 +7,6 @@
 </head>
 <body>
     <h1>CATEGORY EDIT</h1>
+    <p>Name of the category: {{$category->name}}</p>
 </body>
 </html>
