@@ -7,5 +7,7 @@
 </head>
 <body>
     <h1>AUTHOR SHOW</h1>
+    <p>Name of the author: {{$author->name}}</p>
+    <p>Title of the author: {{$author->title}}</p>
 </body>
 </html>

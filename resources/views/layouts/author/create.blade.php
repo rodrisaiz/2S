@@ -6,8 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>AUTHOR EDIT</h1>
-    <p>Name of the author: {{$author->name}}</p>
-    <p>Title of the author: {{$author->title}}</p>
+    <h1>Author Create</h1>
 </body>
 </html>
