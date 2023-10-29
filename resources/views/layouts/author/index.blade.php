@@ -7,5 +7,11 @@
 </head>
 <body>
     <h1>AUTHOR INDEX</h1>
+    @forelse ( $authors as $author )
+        <p>Name of the author: {{$author->name}}</p>
+        <p>Title of the author: {{$author->title}}</p>
+    @empty
+        <p>No data!</p>
+    @endforelse
 </body>
 </html>
